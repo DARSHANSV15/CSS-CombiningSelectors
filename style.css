@@ -1,0 +1,21 @@
+/* Write your code here: */
+
+h1, h2{
+    color: blueviolet; /* Group rule of combining the selectors, for more info refer html file description of this section. */
+}
+
+.box>p{
+    color: firebrick;  /* Parent-child rule of combining selectors, refer description file */
+}
+
+.box li{
+    color: blue;  /* Descendent rule of commbining selectors */
+}
+
+li.done{
+    color: seagreen;  /* Chaining rule of combining selectors */
+}
+
+ul p.done{
+    font-size: 0.5rem;  /* combining the combinations rule of combining selectors */
+}
